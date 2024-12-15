@@ -1,0 +1,192 @@
+.carousel-inner {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto; /* Centers the entire carousel horizontally on the page */
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.navbar-brand{
+  font-size: 30px;
+}
+
+.carousel-inner p,h5{
+  color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:bold ;
+}
+.carousel-item img {
+  max-width: 100%; /* Ensures the image scales down if necessary */
+  max-height: 100%; /* Prevents the image from overflowing */
+  border-radius: 15px; /* Makes the edges rounded */
+  object-fit: cover; /* Ensures images fit the container nicely */
+}
+
+  /*Text*/
+  .text-center p {
+    font-size: 16px;
+    color: #060000;
+  }
+
+  /*Navbar*/
+  .custom-navbar {
+    background-color: black; /* Black navbar background */
+    color: white; /* Default text color */
+  }
+  
+  .custom-navbar .nav-link {
+    color: white; /* White nav links */
+    transition: color 0.3s ease-in-out; /* Smooth color change on hover */
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #ffcc00; /* Yellow on hover */
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  }
+  
+  .custom-navbar .navbar-text {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+  }
+.navbar-nav a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+
+}
+  /* model pics*/
+  /* Polaroid Container */
+.polaroid-container {
+  display: flex;
+  gap: 20px; /* Adds space between items */
+  justify-content: center; /* Aligns the items horizontally */
+  flex-wrap: wrap; /* Allows wrapping to the next line on smaller screens */
+  margin: 50px auto; /* Centers the container vertically and horizontally */
+  animation: fadeIn 1s ease-in-out; /* Smooth fade-in effect */
+}
+
+/* Polaroid Card */
+.polaroid {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.2), 
+    0 6px 20px rgba(0, 0, 0, 0.19); /* Enhances the shadow effect */
+  margin-bottom: 25px;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners for a modern look */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.polaroid:hover {
+  transform: translateY(-10px); /* Slight upward movement on hover */
+  box-shadow: 
+    0 8px 16px rgba(0, 0, 0, 0.3), 
+    0 12px 30px rgba(0, 0, 0, 0.25); /* Emphasized shadow on hover */
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto; /* Ensures image maintains aspect ratio */
+  border-radius: 10px 10px 0 0; /* Rounded top edges only */
+}
+
+.polaroid .container {
+  padding: 15px;
+  font-style: oblique;
+  color: #333;
+  font-weight: bold;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* About Us Box */
+.polaroid-container-aboutus {
+  max-width: 800px; /* Restricts width for better readability */
+  margin: 0 auto; /* Centers horizontally */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.2), 
+    0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 10px; /* Adds rounded corners */
+  font-family: 'Times New Roman', serif;
+  line-height: 1.6; /* Improves text readability */
+  color: #333; /* Dark gray text for elegance */
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+  
+  /*text slide images*/
+  .carousel-caption {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adds a shadow for better visibility */
+    font-weight: bold; /* Makes text bold */
+    color: #fff; /* Ensures text is white for contrast */
+    background: rgba(0, 0, 0, 0.5); /* Adds a subtle dark overlay */
+    padding: 10px; /* Adds some spacing around text */
+    border-radius: 5px; /* Slightly rounds the background corners */
+    display: inline-block; /* Prevents full-width background */
+    animation: fadeIn 1s ease-in-out; /* Smooth fade-in effect */
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  /* reivew*/
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Moves the card up by 10px */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a more pronounced shadow */
+    cursor: pointer; /* Makes it clear the card is interactive */
+  }
+
+
+  /*footer*/
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serf;
+ }
+
+ /*suitpage */
+
+
+  
+  
+  
+
+ 
